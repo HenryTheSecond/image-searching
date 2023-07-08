@@ -35,7 +35,7 @@ def get_labels():
     labelArray = []
     for label in labels.keys():
         labelArray.append({"en": label, "vi": labels[label]})
-    return labelArray
+    return jsonify(labelArray)
 
 
 def read_data():
