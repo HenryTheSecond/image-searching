@@ -25,7 +25,7 @@ def upload_file():
     img_array = tf.keras.utils.img_to_array(img)
     img_array = tf.expand_dims(img_array, 0)
     predictions = model.predict(img_array)
-    predicted_class = class_names[np.argmax(predictions[0])]
+    predicted_class = class_names[np.argmax(predictions[0])].lower()
     labels = read_data()
     return jsonify({"fruit": labels[predicted_class]})
 
