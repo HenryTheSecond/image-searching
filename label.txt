@@ -1,0 +1,131 @@
+Apple Braeburn:táo
+Apple Crimson Snow:táo
+Apple Golden 1:táo
+Apple Golden 2:táo
+Apple Golden 3:táo
+Apple Granny Smith:táo
+Apple Pink Lady:táo
+Apple Red 1:táo
+Apple Red 2:táo
+Apple Red 3:táo
+Apple Red Delicious:táo
+Apple Red Yellow 1:táo
+Apple Red Yellow 2:táo
+Apricot:mơ
+Avocado:bơ
+Avocado ripe:bơ
+Banana:chuối
+Banana Lady Finger:chuối
+Banana Red:chuối
+Beetroot:củ cải đỏ
+Blueberry:việt quất
+Cactus fruit:xương rồng
+Cantaloupe 1:dưa lưới
+Cantaloupe 2:dưa lưới
+Carambula:khế
+Cauliflower:súp lơ
+Cherry 1:cherry
+Cherry 2:cherry
+Cherry Rainier:cherry
+Cherry Wax Black:cherry
+Cherry Wax Red:cherry
+Cherry Wax Yellow:cherry
+Chestnut:hạt dẻ
+Clementine:đinh lăng
+Cocos:dừa
+Corn:ngô
+Corn Husk:ngô
+Cucumber Ripe:dưa chuột
+Cucumber Ripe 2:dưa chuột
+Dates:chà là
+Eggplant:cà tím
+Fig:sung
+Ginger Root:gừng
+Granadilla:chanh dây
+Grape Blue:nho
+Grape Pink:nho
+Grape White:nho
+Grape White 2:nho
+Grape White 3:nho
+Grape White 4:nho
+Grapefruit Pink:bưởi
+Grapefruit White:bưởi
+Guava:ổi
+Hazelnut:phỉ
+Huckleberry:lý gai
+Kaki:hồng
+Kiwi:kiwi
+Kohlrabi:su hào
+Kumquats:quất
+Lemon:chanh
+Lemon Meyer:chanh
+Limes:chanh
+Lychee:vải
+Mandarine:quýt
+Mango:xoài
+Mango Red:xoài
+Mangostan:măng cụt
+Maracuja:chanh dây
+Melon Piel de Sapo:Dưa Piel de Sapo
+Mulberry:dâu
+Nectarine:đào
+Nectarine Flat:đào
+Nut Forest:hạt dẻ
+Nut Pecan:hồ đào
+Onion Red:hành tây
+Onion Red Peeled:hành tây
+Onion White:hành tây
+Orange:cam
+Papaya:đu đủ
+Passion Fruit:chanh dây
+Peach:đào
+Peach 2:đào
+Peach Flat:đào
+Pear:lê
+Pear 2:lê
+Pear Abate:lê
+Pear Forelle:lê
+Pear Kaiser:lê
+Pear Monster:lê
+Pear Red:lê
+Pear Stone:lê
+Pear Williams:lê
+Pepino:dưa pepino
+Pepper Green:ớt chuông
+Pepper Orange:ớt chuông
+Pepper Red:ớt chuông
+Pepper Yellow:ớt chuông
+Physalis:tầm bóp
+Physalis with Husk:tầm bóp
+Pineapple:thơm
+Pineapple Mini:thơm
+Pitahaya Red:thanh long
+Plum:mận
+Plum 2:mận
+Plum 3:mận
+Pomegranate:lựu
+Pomelo Sweetie:bưởi
+Potato Red:khoai tây
+Potato Red Washed:khoai tây
+Potato Sweet:khoai tây
+Potato White:khoai tây
+Quince:mộc qua
+Rambutan:chôm chôm
+Raspberry:dâu
+Redcurrant:nho
+Salak:salak
+Strawberry:dâu
+Strawberry Wedge:dâu
+Tamarillo:cà mỹ
+Tangelo:quýt
+Tomato 1:cà chua
+Tomato 2:cà chua
+Tomato 3:cà chua
+Tomato 4:cà chua
+Tomato Cherry Red:cà chua
+Tomato Heart:cà chua
+Tomato Maroon:cà chua
+Tomato not Ripened:cà chua
+Tomato Yellow:cà chua
+Walnut:óc chó
+Watermelon:dưa hấu
