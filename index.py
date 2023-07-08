@@ -7,6 +7,8 @@ import os
 #from test import FRUIT
 from flask_cors import CORS, cross_origin
 from constant import TRAIN_DIR, MODEL_DIR
+import json
+import time
 
 train_dir = TRAIN_DIR
 class_names = os.listdir(train_dir)
@@ -38,13 +40,39 @@ def get_labels():
     return jsonify(labelArray)
 
 
+@app.route("/add-images", methods = ["POST"])
+@cross_origin(supports_credentials=True)
+def add_images():
+    imgs = request.files.getlist("images")
+    labelRequest = json.loads(request.form.get('label'))
+    labels = read_data()
+    if(labels.__contains__(labelRequest['en'].lower()) == False):
+        path = os.path.join(train_dir, labelRequest['en'])
+        os.makedirs(path)
+        if(labelRequest.__contains__('vi') == False or labelRequest['vi'] == ''):
+            labelRequest['vi'] = labelRequest['en']
+        write_data(labelRequest['en'], labelRequest['vi'])
+    for img in imgs:
+        imgOpen = PIL.Image.open(img)
+        imgOpen = imgOpen.resize((100, 100))
+        path = os.path.join(train_dir, labelRequest['en'], str(int(time.time())) + '_' + img.filename + '.jpg')
+        imgOpen.save(path)
+    return jsonify({'message': 'OK', 'status': 200})
+    #return os.path.join(train_dir, 'aa', str(int(time.time())) + '.jpg')
+    
+    
+
 def read_data():
     label = {}
     with open('label.txt', encoding='UTF-8') as myfile:
         for line in myfile.readlines():
             arg = line.replace('\n','').split(':')
-            label[arg[0]] = arg[1]
+            label[arg[0].lower()] = arg[1]
     return label
+
+def write_data(en, vi):
+    with open('label.txt', 'a', encoding='UTF-8') as myfile:
+        myfile.write(en + ':' + vi + '\n')
 
 @app.route("/")
 def home():

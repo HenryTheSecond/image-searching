@@ -3,7 +3,7 @@ from test import FRUIT
 def migrate_file():
     with open('label.txt', 'w', encoding='UTF-8') as myfile:
         for label in FRUIT.keys():
-            myfile.write(label + ':' + FRUIT[label] + '\n')
+            myfile.writelines(label + ':' + FRUIT[label] + '\n')
 
 def read_data():
     label = {}
@@ -13,4 +13,5 @@ def read_data():
             label[arg[0]] = arg[1]
     return label
 
+migrate_file()
 print(read_data())
